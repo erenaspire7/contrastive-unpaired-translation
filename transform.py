@@ -14,8 +14,8 @@ from torch import Tensor
 import torchvision.transforms as transforms
 
 
-extra_args = sys.argv[7:]
-sys.argv[1:] = sys.argv[1:7]
+extra_args = sys.argv[5:]
+sys.argv[1:] = sys.argv[1:5]
 
 
 
